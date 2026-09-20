@@ -1,0 +1,114 @@
+:root {
+
+  /* Font */
+
+  --font-family:
+  "Vazirmatn",
+  sans-serif;
+
+
+  /* Radin Colors */
+
+  --radin-50:#f0f8ff;
+
+  --radin-100:#e0f1fe;
+
+  --radin-200:#b9e3fc;
+
+  --radin-300:#8acff9;
+
+  --radin-400:#73c2fb;
+
+  --radin-500:#38a9f5;
+
+  --radin-600:#1b8de5;
+
+  --radin-700:#126fc0;
+
+  --radin-800:#135b9c;
+
+
+  /* Background */
+
+  --background:
+  #f1f7fc;
+
+
+  /* Glass */
+
+  --glass-bg:
+  rgba(255,255,255,.85);
+
+
+  --glass-border:
+  rgba(255,255,255,1);
+
+
+}
+
+.glass-card {
+
+
+background:
+var(--glass-bg);
+
+
+backdrop-filter:
+blur(20px);
+
+
+-webkit-backdrop-filter:
+blur(20px);
+
+
+border:
+1px solid var(--glass-border);
+
+
+box-shadow:
+
+0 15px 35px -10px
+rgba(115,194,251,.15);
+
+}
+
+
+
+.glass-input {
+
+
+background:
+rgba(248,251,255,.9);
+
+
+border:
+1.5px solid #d4e7f7;
+
+
+transition:.25s;
+
+
+}
+
+
+
+.glass-input:focus {
+
+
+background:white;
+
+
+border-color:
+var(--radin-400);
+
+
+box-shadow:
+
+0 0 0 4px
+rgba(115,194,251,.2);
+
+
+outline:none;
+
+
+}
