@@ -13,7 +13,7 @@ const __dirname = path.dirname(__filename);
 
 const dbPath =
 process.env.DATABASE_PATH ||
-"./database/database.sqlite";
+"./database.sqlite";
 
 
 
